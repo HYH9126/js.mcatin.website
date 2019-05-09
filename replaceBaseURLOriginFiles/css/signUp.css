@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    width: 1280px !important;
+    max-width: none !important;
+}
+
+.box {
+    min-width: 1304px;
+    max-width: 1920px;
+    height: 900px;
+    margin: 0 auto;
+    position: relative;
+    background-position-x: center;
+    background-position-y: -1018px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fixedBg {
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.box nav{
+    position: absolute;
+    top: 0;
+}
+
+.box footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.con1{
+    width: 898px;
+    height: 777px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.logo {
+    width: 848px;
+    height: 38px;
+    margin: 0 auto 12px;
+    border-bottom: 2px solid #3e4244;
+    position: relative;
+}
+
+.logo div {
+    width: 39px;
+    height: 22px;
+    background-position-y: -52px;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+}
+
+.title{
+    width: 175px;
+    height: 57px;
+    line-height: 57px;
+    margin-left: 40px;
+    padding-left: 5px;
+    border-bottom: 2px solid #3e4244;
+    font-size: 24px;
+}
+
+.form1{
+    width: 792px;
+    height: 606px;
+    margin: 28px 0 0 52px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-9 {
+    padding: 0 !important;
+    position: relative;
+}
+
+.col-xs-2{
+    padding-right: 20px !important;
+}
+
+label{
+    float: right;
+    height: 33px;
+    line-height: 33px;
+}
+
+.glyphicon{
+    color: #a94442;
+}
+
+input{
+    width: 100%;
+    height: 33px;
+    border: 1px solid #ababab;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+
+.select1{
+    width: 100%;
+    height: 33px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.select2{
+    width: 200px;
+    height: 33px;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-right: 2px;
+}
+
+.btn{
+    width: 111px;
+    height: 33px;
+    font-size: 16px;
+    box-shadow: 0 0 4px #3e4244;
+}
+
+.sure{
+    background-color: #51a61e;
+    color: #fff;
+}
+
+.con2{
+    display: none;
+    width: 898px;
+    height: 392px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.form2{
+    width: 792px;
+    height: 96px;
+    margin: 28px 0 0 52px;
+}
+
+#filUploadBox{
+    margin-left: 52px !important;
+}
+
+#uploadImg {
+    display: none;
+}
+
+#chooseFile {
+    background: #93b6fc;
+}
+
+#uploadFile,
+#rechooseFile {
+    display: none;
+    background: #93b6fc;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+}
+
+.bar {
+    background-image: -webkit-linear-gradient(top, #5cb85c 0, #449d44 100%);
+    background-image: -o-linear-gradient(top, #5cb85c 0, #449d44 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#449d44));
+    background-image: linear-gradient(to bottom, #5cb85c 0, #449d44 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);
+    background-repeat: repeat-x;
+    height: 20px;
+    line-height: 20px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+#progress {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
+    background-repeat: repeat-x;
+    height: 20px;
+    width: 0%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+}
+
+.con3 {
+    display: none;
+    width: 898px;
+    height: 692px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.form3 {
+    width: 792px;
+    height: 330px;
+    margin: 28px 0 0 52px;
+}
+
+textarea{
+    width: 100%;
+    min-height: 115px;
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    resize: vertical;
+    max-height: 300px;
+}
+
+.signUpTips1 {
+    display: none;
+    width: 636px;
+    height: 305px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.signUpTips1 .logo{
+    width: 586px;
+}
+
+.signUpTips1 span {
+    display: block;
+    text-align: center;
+    height: 68px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-top: 62px;
+    margin-bottom: 60px;
+}
+
+.clo{
+    background-color: #51a61e;
+    color: #fff;
+}
+
+.signUpTips2 {
+    display: none;
+    width: 636px;
+    height: 305px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+}
+
+.signUpTips2 .logo {
+    width: 586px;
+}
+
+.signUpTips2Title {
+    width: 400px;
+    height: 24px;
+    margin: 55px 0 0 55px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.signUpTips2Title span {
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+.signUpTips2Text {
+    display: block;
+    width: 500px;
+    height: 56px;
+    line-height: 28px;
+    margin: 23px 0 20px 96px;
+}
+
+.signUpTips3 {
+    display: none;
+    width: 636px;
+    height: 403px;
+    background-color: #f5f5f5;
+    margin-top: 60px;
+    position: relative;
+}
+
+.signUpTips3 .errorIcon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 182px;
+    left: 197px;
+    background-position-y: -140px;
+}
+
+.signUpTips3 span {
+    font-size: 22px;
+    line-height: 22px;
+    position: absolute;
+    top: 186px;
+    left: 248px;
+}
+
+.btn a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#fileUpload{
+    position: relative;
+}
+
+#fileInput{
+    width: auto !important;
+    border: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+#fildTips{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    color: #3e4244;
+}
+
+#con2Btn{
+    margin-top: 40px;
+}
+
+input.error{
+    border-color: #ba2525;
+}
+
+select.error{
+    border-color: #ba2525;
+}
+
+textarea.error {
+    border-color: #ba2525;
+}
+
+label.error {
+    color: #ba2525 !important;
+    font-size: 10px;
+    line-height: 10px;
+    height: 10px;
+    position: absolute;
+    top: 36px;
+    left: 20px;
+}

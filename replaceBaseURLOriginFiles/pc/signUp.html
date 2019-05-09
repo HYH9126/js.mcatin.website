@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MCAT Inc.</title>
+    <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://@baseurl/mcatin/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="http://@baseurl/mcatin/js/distpicker.min.js"></script>
+    <script type="text/javascript" src="http://@baseurl/mcatin/js/api.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery-validate/1.19.0/localization/messages_zh.min.js"></script>
+    <script type="text/javascript" src="http://@baseurl/mcatin/js/signUp.js"></script>
+    <script type="text/javascript" src="http://@baseurl/mcatin/js/website_construction.js"></script>
+    <link rel="shortcut icon" href="http://@baseurl/mcatin/imgs/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/clear.css" />
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/header_footer.css" />
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/signUp.css" />
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/easyui.css">
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/icon.css">
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/website_construction.css" />
+    <link rel="stylesheet" type="text/css" href="http://@baseurl/mcatin/css/backgroundImgs.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div class="box">
+        <nav>
+            <div class="navBody">
+                <a href="http://www.mcatin.art/pages/home.html">主页</a>
+                <a class="popup" href="javascript:;">项目众筹</a>
+                <a class="navOpacity" href="javascript:;">顶级夏校</a>
+                <a class="navOpacity" href="javascript:;">留学保录</a>
+                <a class="navOpacity" href="javascript:;">培训课程</a>
+                <a href="http://www.mcatin.art/pages/home.html#aboutUs=1" target="_blank">关于我们</a>
+            </div>
+            <div class="langSwitch">
+                <span>中文</span>
+                <b>丨</b>
+                <span class="gray">EN</span>
+            </div>
+        </nav>
+        <div class="con1">
+            <div class="logo"><div class="detailsIcon"></div></div>
+            <div class="title">基本信息</div>
+            <form class="form1" id="form1">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 姓：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="surname" name="surname" placeholder="">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 名：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="name" name="name" placeholder="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 曾用名：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="nameUsedBefore" placeholder="如：李四">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label>性别：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <select class="select1 form1Input" id="sex">
+                            <option value="male">男</option>
+                            <option value="female">女</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 生日：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input class="easyui-datebox" id="birthday" data-options="formatter:myformatter,parser:myparser,validType:'md[\'2012-02-13\']'">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label>身份证号：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="idcard" name="idcard" placeholder="如：230103199505051111">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 婚姻状况：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <select class="select1 form1Input" id="maritalStatus">
+                            <option value="single">单身</option>
+                            <option value="married">已婚</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label>是否持有美签证：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <select class="select1 form1Input" id="usVisa">
+                            <option value="B-1/B-2">B-1/B-2</option>
+                            <option value="H-1B">H-1B</option>
+                            <option value="H-2A">H-2A</option>
+                            <option value="H-2B">H-2B</option>
+                            <option value="F1">F1</option>
+                            <option value="F2">F2</option>
+                            <option value="M1/M2">M1/M2</option>
+                            <option value="J1/J2">J1/J2</option>
+                            <option value="O1">O1</option>
+                            <option value="no">我没有美签证</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 护照号：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <input type="text" class="form1Input" id="passportNo" placeholder="如：YA2870000，没有可不填">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> E-MAIL：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="email" name="email" class="form1Input" id="email" placeholder="如：abc@mcavin.com">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 电话：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="phone" name="phone" placeholder="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> QQ：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="qq" name="qq" placeholder="如：100000">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label>微信：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class="form1Input" id="wechat" placeholder="如：18686868668">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>所在地：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <div data-toggle="distpicker" id="location">
+                            <select class="select2  form1Input" id="province" data-province="---- 选择省 ----"></select>
+                            <select class="select2  form1Input" id="city" data-city="---- 选择市 ----"></select>
+                            <select class="select2  form1Input" id="district" data-district="---- 选择区 ----"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 家庭住址：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <input type="text" class="form1Input" id="homeAddress" placeholder="目前居住地址">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 收件地址：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <input type="text" class="form1Input" id="receivingAddress" placeholder="您的收件地址，请确保您可以收到我们的邮件">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label> 工作地址：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <input type="text" class="form1Input" id="workAddress" placeholder="您所在公司/单位/学校的地址，没有可不填">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-7">
+                        <div class="btn"><a href="javascript:window.opener=null;window.open('','_self');window.close();">取消</a></div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="btn sure" id="form1Submit">确定</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="con2">
+            <div class="logo">
+                <div class="detailsIcon"></div>
+            </div>
+            <div class="title">学历信息</div>
+            <form class="form2" id="form2">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 毕业年份：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <select class="select1 form2Input" id="graduationYear" required>
+                            <option id="after" style="display: none"></option>
+                            <option value="2015">2019</option>
+                            <option value="2014">2018</option>
+                            <option value="2013">2017</option>
+                            <option value="2012">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                            <option value="2007">2007</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="2000年以前">2000年以前</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 大学名称：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class=" form2Input" id="university" name="university" placeholder="如：清华大学">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 专业：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class=" form2Input" id="major" name="major" placeholder="如：计算机">
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <label><span class="glyphicon glyphicon-asterisk"></span> 成绩(GPA)：</label>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" class=" form2Input" id="gre" name="gre" placeholder="如：4.0">
+                    </div>
+                </div>
+            </form>
+            <div class="row" id="filUploadBox">
+                <div class="col-xs-2">
+                    <label>成绩扫描单：</label>
+                </div>
+                <div class="col-xs-9" id="fileUpload">
+                    <form id="fileForm" method="post" enctype="multipart/form-data">
+                        <input type="file" id="fileInput" name="file" accept="application/pdf">
+                        <span id="fileInfo"></span>
+                        <span id="fildTips">仅支持PDF文件，请勿上传超过3MB的文件</span>
+                    </form>
+                </div>
+            </div>
+            <div class="row" id="con2Btn">
+                <div class="col-xs-2 col-xs-offset-7">
+                    <div class="btn"><a href="javascript:window.opener=null;window.open('','_self');window.close();">取消</a></div>
+                </div>
+                <div class="col-xs-2">
+                    <div class="btn sure" id="form2Submit">确定</div>
+                </div>
+            </div>
+        </div>
+        <div class="con3">
+            <div class="logo">
+                <div class="detailsIcon"></div>
+            </div>
+            <div class="title">学历信息</div>
+            <form class="form3" id="form3">
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>语言成绩：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <select class="select1 form3Input" id="languageAchievement">
+                            <option value="nothing">我没有参加过任何英语水平测试</option>
+                            <option value="toefl">我参加过托福（TOEFL）测试</option>
+                            <option value="ielts">我参加过雅思（IELTS）测试</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>GRE成绩：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <select class="select1 form3Input" id="greAchievement">
+                            <option value="nothing">我没有参加过GRE测试</option>
+                            <option value="gre">我参加过GRE测试</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>工作经验：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <select class="select1 form3Input" id="workingLife">
+                            <option value="nothing">我没有任何工作经验</option>
+                            <option value="1">1年以下</option>
+                            <option value="2">1-3年</option>
+                            <option value="3">3-5年</option>
+                            <option value="4">5年以上</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>个人简介：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <textarea class="form3Input" id="personalProfile" name="personalProfile"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <label>项目获知途径：</label>
+                    </div>
+                    <div class="col-xs-9">
+                        <select class="select1 form3Input" id="source">
+                            <option value="1">搜索引擎</option>
+                            <option value="2">百度贴吧</option>
+                            <option value="3">微博</option>
+                            <option value="4">知乎</option>
+                            <option value="5">微信公众号</option>
+                            <option value="6">微信朋友圈</option>
+                            <option value="7">亲戚介绍</option>
+                            <option value="8">朋友推荐</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-7">
+                        <div class="btn" id="pre">取消</div>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="btn sure" id="form3Submit">确定</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="signUpTips1">
+            <div class="logo">
+                <div class="detailsIcon"></div>
+            </div>
+            <div>
+                <span>请到邮箱查看【确认邮件】，<br/>以继续填写其他信息。</span>
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-8">
+                        <div class="btn clo"><a href="javascript:window.opener=null;window.open('','_self');window.close();">关闭窗口</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signUpTips2">
+            <div class="logo">
+                <div class="detailsIcon"></div>
+            </div>
+            <div>
+                <div class="signUpTips2Title">
+                    <span class="glyphicon glyphicon-envelope"></span> 
+                    <span>恭喜您，您的申请已完成！</span>
+                </div>
+                <span class="signUpTips2Text">我们已经记录了您提交的信息。我们的工作人员会在稍后和您联系，<br/>请您耐心等待，感谢您对MCAT的支持！</span>
+                <div class="row">
+                    <div class="col-xs-2 col-xs-offset-8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signUpTips3">
+            <div class="errorIcon detailsIcon"></div>
+            <span>报名链接已失效...</span>
+        </div>
+        <div class="bg">
+        </div>
+        <div class="tips tips1">
+            <div class="tipsIcon1 homeIcon"></div>
+            <div class="close homeIcon"></div>
+            <span>内容建设中...</span>
+        </div>
+        <footer>
+            <div class="footerBody">
+                <span class="record">京ICP备 19017962号</span>
+                <span class="copyright">版权@2019 吴佳渠</span>
+            </div>
+        </footer>
+        <div id="fixedBg" class="homeBg"></div>
+    </div>
+</body>
+</html>

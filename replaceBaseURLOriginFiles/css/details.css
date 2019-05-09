@@ -1,0 +1,608 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box {
+    min-width: 1304px;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#fixedBg{
+    width: 100%;
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+
+.mainBody{
+    width: 1170px;
+    margin: 20px auto 32px;
+    background-color: #fff;
+}
+
+.logo{
+    width: 1120px;
+    height: 38px;
+    margin: 0 auto 12px;
+    border-bottom: 2px solid #3e4244;
+    position: relative;
+}
+
+.logo div{
+    width: 39px;
+    height: 22px;
+    background-position-y: -52px;
+    position: absolute;
+    top: 11px;
+    left: 16px; 
+}
+
+.mainBodyCon{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.details{
+    width: 767px;
+    margin-right: 8px;
+    float: left;
+}
+
+.title{
+    margin-left: 14px;
+}
+
+.title h1{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 100;
+    margin-left: 6px;
+}
+
+.title div{
+    width: 180px;
+    height: 30px;
+    border-bottom: 2px solid #3e4244;
+}
+
+.projectIntroduction{
+    margin: 19px 0 13px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.projectIntroduction .projectIntroductionHead {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.projectIntroduction .projectIntroductionCon {
+    margin-bottom: 20px;
+}
+
+.projectIntroductionCon>a{
+    display: block;
+    text-decoration: underline !important;
+    margin: 10px;
+    color: rgb(0, 0, 255) !important;
+}
+
+.teacher{
+    width: 743px;
+    height: 207px;
+    border: 1px solid #eaeaea;
+    background-color: #f5f5f5;
+    padding: 9px 0px 13px 22px;
+    margin-bottom: 9px;
+}
+
+.teacher img{
+    display: block;
+    width: 140px;
+    height: 207px;
+    float: left;
+    margin-right: 22px;
+}
+
+.teacherDetails{
+    width: 580px;
+    height: 195px;
+    float: left;
+    padding-top: 12px;
+}
+
+.teacherDetails h1{
+    font-size: 24px;
+    margin-left: 6px;
+    line-height: 24px;
+}
+
+.teacherDetails div{
+    width: 240px;
+    height: 18px;
+    border-bottom: 2px solid #3e4244;
+    margin-bottom: 12px;
+}
+
+.teacherDetails span{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.learningObjectives{
+    width: 745px;
+    border: 1px solid #eaeaea;
+    background-color: #f5f5f5;
+    padding: 12px 0 0 20px;
+}
+
+.learningObjectives h1{
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.learningObjectivesConHalf{
+    width: 310px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+.anObjective{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.courseCon{
+    width: 757px;
+    padding: 6px 0 0 8px;
+    border: 1px solid #eaeaea;
+    background-color: #f5f5f5;
+    margin-top: 9px;
+}
+
+.courseConHead{
+    height: 22px;
+    position: relative;
+    margin-bottom: 23px;
+}
+
+.courseConHead h1{
+    font-size: 22px;
+    line-height: 22px;
+    color: #29303b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.courseConHead a {
+    font-size: 14px;
+    line-height: 14px;
+    color: #007791;
+    position: absolute;
+    bottom: 0;
+    left: 483px;
+}
+
+.courseConHead .num{
+    font-size: 14px;
+    line-height: 14px;
+    color: #29303b;
+    position: absolute;
+    bottom: 0;
+    right: 246px;
+}
+
+.courseConHead .duration {
+    font-size: 14px;
+    line-height: 14px;
+    color: #29303b;
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+}
+
+.courseConBody{
+    width: 750px;
+}
+
+.ulA{
+    width: 750px;
+}
+
+.liA{
+    width: 748px;
+    border: 1px solid #f3f3f3;
+    background-color: #f9f9f9;
+}
+
+.open{
+    cursor: pointer;
+}
+
+.liACon{
+    width: 706px;
+    height: 40px;
+    position: relative;
+    padding-left: 42px;
+    padding-top: 5px;
+}
+
+.liAIcon1{
+    width: 10px;
+    height: 9px;
+    position: absolute;
+    top: 18px;
+    left: 22px;
+}
+
+.liAIcon2 {
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    background-position-y: -9px;
+}
+
+.liATittle{
+    color: #505763;
+    line-height: 35px;
+    font-weight: 900;
+}
+
+.liATittle2{
+    color: #505763;
+    line-height: 16px;
+    font-weight: 900;
+}
+
+.liANum{
+    position: absolute;
+    right: 162px;
+    top: 15px;
+    line-height: 14px;
+    color: #505763;
+}
+
+.liADur{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    line-height: 14px;
+}
+
+.ulB{
+    height: 0;
+    width: 750px;
+    overflow: hidden;
+}
+
+.liB{
+    width: 678px;
+    height: 100%;
+    padding: 0 0 10px 70px;
+    border-top: 1px solid #e8e9eb;
+    background-color: #fff;
+    position: relative;
+}
+
+.liBIcon1{
+    width: 14px;
+    height: 13px;
+    background-position-y: -11px;
+    position: absolute;
+    top: 13px;
+    left: 42px;
+}
+
+.liBIcon2 {
+    width: 14px;
+    height: 13px;
+    background-position-y: -24px;
+    position: absolute;
+    top: 13px;
+    left: 42px;
+}
+
+.preview{
+    color: #428698 !important;
+}
+
+.liBTittle{
+    display: inline-block;
+    height: 100%;
+    max-width: 500px;
+    margin-top: 13px;
+    color: #505763;
+    line-height: 24px;
+}
+
+.liBDur{
+    line-height: 14px;
+    color: #505763;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.courseConBody .more{
+    width: 748px;
+    height: 40px;
+    border: 1px solid #efefef;
+    background-color: #e8e9eb;
+    text-align: center;
+    line-height: 40px;
+    color: #29303b;
+    cursor: pointer;
+}
+
+.hidden{
+    height: 0 !important;
+}
+
+.requirement{
+    margin-top: 12px;
+    width: 741px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    margin-bottom: 89px;
+    padding: 25px 0 25px 24px;
+}
+
+.requirement h1{
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 14px;
+    margin-left: 18px;
+}
+
+.requirement div{
+    margin-left: 38px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.signUpMes {
+    width: 345px;
+    float: left;
+}
+
+.part1{
+    width: 292px;
+    height: 362px;
+    padding: 12px 27px 0 24px;
+    border: 1px solid #eaeaea;
+    position: relative;
+}
+
+#showVideoBg{
+    visibility: hidden;
+    width: 292px;
+    height: 158px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 100;
+    top: 12px;
+    left: 24px;
+}
+
+#showVideo{
+    visibility: hidden;
+    width: 292px;
+    height: 158px;
+    position: absolute;
+    z-index: 1000;
+    top: 12px;
+    left: 24px;
+    cursor: pointer;
+}
+
+#showVideo div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 96px;
+    top:29px;
+    background-position-y: -158px;
+}
+
+#videoBox {
+    visibility: hidden;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 50px;
+    z-index: 1000;
+    background: #f5f5f5;
+}
+
+#video {
+    width: 1080px;
+    height: 650px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+
+#video iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#closeVideo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position-y: -74px;
+    cursor: pointer;
+}
+
+.part1Icon{
+    width: 292px;
+    height: 158px;
+}
+
+.part1Details{
+    margin-top: 20px;
+    height: 182px;
+    border-top: 1px solid #eaeaea; 
+    position: relative;
+}
+
+.green{
+    color: #5db427;
+}
+
+.big{
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+.red{
+    color: #ba2525;
+}
+
+.gray{
+    color: #8c8c8c;
+}
+
+.part1Details span{
+    position: absolute;
+}
+
+.part1Details span:nth-child(1){
+    top: 22px;
+}
+
+.part1Details span:nth-child(2) {
+    left: 115px;
+    top: 18px;
+}
+
+.part1Details span:nth-child(3) {
+    left: 160px;
+    top: 18px;
+}
+
+.part1Details span:nth-child(4) {
+    top: 62px;
+}
+
+.part1Details span:nth-child(5) {
+    left: 112px;
+    top: 56px;
+}
+
+.part1Details span:nth-child(6) {
+    left: 26px;
+    top: 96px;
+}
+
+.part1Details span:nth-child(7) {
+    left: 72px;
+    top: 92px;
+}
+
+.part1Details span:nth-child(8) {
+    left: 40px;
+    top: 124px;
+}
+
+.part2{
+    width: 307px;
+    padding: 0 18px 20px 18px;
+    border: 1px solid #eaeaea;
+    margin-top: 10px;
+}
+
+.signUpMod{
+    margin-top: 12px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.signUpMod span{
+    display: block;
+}
+
+.signUpMod span:nth-child(1){
+    margin-bottom: 8px;
+}
+
+.signUpMod span:nth-child(2) {
+    padding-top: 5px;
+    line-height: 22px;
+    border-top: 1px solid #eaeaea;
+    margin-bottom: 16px;
+}
+
+.price{
+    display: inline !important;    
+}
+
+.signUpBtn{
+    display: block;
+    width: 204px;
+    height: 60px;
+    background-position-y: 0;
+    cursor: pointer;
+    margin: 12px auto;
+}
+
+.signUpMod .warning {
+    margin-bottom: 16px;
+    margin-left: 45px;
+    line-height: 22px;
+}
+
+/* class3样式 */
+
+.projectIntroductionImg {
+    width: 554px;
+    height: 57px;
+    margin: 20px auto;
+}
+
+.projectIntroductionImg1 {
+    height: 220px  !important;
+}
+
+.projectIntroductionImg2 {
+    height: 298px  !important;
+}
+
+.projectIntroductionImg3 {
+    height: 180px  !important;
+}
+
+.projectIntroductionImg4 {
+    height: 165px !important;
+}
+
+.projectIntroductionImg5 {
+    height: 374px !important;
+}
+
+.projectIntroductionImg6 {
+    width: 650px !important;
+    height: 151px !important;
+}
+
+.class3Qrcode1 {
+    width: 243px;
+    height: 333px;
+}
+
+.class3Qrcode2 {
+    width: 229px;
+    height: 229px;
+}

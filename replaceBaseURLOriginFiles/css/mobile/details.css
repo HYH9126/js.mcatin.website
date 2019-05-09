@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* CSS Document */
+#backIndex {
+  width: 100%;
+  height: 1.46666667rem;
+  padding: 0.53333333rem 0;
+}
+#backIndex div {
+  width: 1.46666667rem;
+  height: 1.46666667rem;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#tittle {
+  width: 80%;
+  font-size: 0.8rem;
+  line-height: 0.93333333rem;
+  margin: 0 auto 0.26666667rem auto;
+  font-weight: 100;
+  text-align: center;
+  word-wrap: break-word;
+}
+#videoBox {
+  width: 7.16rem;
+  height: 3.86666667rem;
+  padding: 0.16rem;
+  border: 0.01333333rem solid #eaeaea;
+  position: relative;
+  margin: 0 auto;
+}
+#showVideoBg {
+  width: 7.16rem;
+  height: 3.86666667rem;
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 0.16rem;
+  left: 0.16rem;
+}
+#showVideo {
+  width: 7.16rem;
+  height: 3.86666667rem;
+  position: absolute;
+  z-index: 1000;
+  top: 0.16rem;
+  left: 0.16rem;
+}
+#showVideo div {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2.48rem;
+  top: 0.85333333rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.mobileVideoBg {
+  width: 7.16rem;
+  height: 3.86666667rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#classState {
+  width: 70%;
+  margin: 0.26666667rem auto 0 auto;
+  height: 5.33333333rem;
+  border-top: 1px solid #eaeaea;
+  position: relative;
+}
+.fontS28 {
+  font-size: 0.37333333rem;
+}
+.fontS50 {
+  font-size: 0.66666667rem;
+}
+.fontS42 {
+  font-size: 0.56rem;
+}
+.fontS26 {
+  font-size: 0.34666667rem;
+}
+.green {
+  color: #5db427;
+}
+.red {
+  color: #ba2525;
+}
+.gray {
+  color: #8c8c8c;
+}
+#classState span {
+  position: absolute;
+}
+#classState span:nth-child(1) {
+  top: 0.66666667rem;
+  left: 0.8rem;
+}
+#classState span:nth-child(2) {
+  left: 3.73333333rem;
+  top: 0.42666667rem;
+}
+#classState span:nth-child(3) {
+  left: 4.73333333rem;
+  top: 0.42666667rem;
+}
+#classState span:nth-child(4) {
+  left: 0.8rem;
+  top: 1.8rem;
+}
+#classState span:nth-child(5) {
+  left: 3.46666667rem;
+  top: 1.44rem;
+}
+#classState span:nth-child(6) {
+  left: 0.46666667rem;
+  top: 3.38666667rem;
+}
+#classState span:nth-child(7) {
+  left: 1.66666667rem;
+  top: 3.25333333rem;
+}
+#classState span:nth-child(8) {
+  left: 1rem;
+  top: 4.33333333rem;
+}
+#part1 {
+  width: 8.16rem;
+  height: 0.96rem;
+  margin: 0.26666667rem auto 0 auto;
+  overflow: hidden;
+}
+#part1Header {
+  width: 8.13333333rem;
+  height: 0.93333333rem;
+  text-align: center;
+  font-weight: 900;
+  line-height: 0.93333333rem;
+  font-size: 0.42666667rem;
+  border: 0.01333333rem solid #bbbbbb;
+  border-radius: 0.06666667rem;
+  background-color: #929292;
+  color: #b6b6b6;
+  position: relative;
+}
+.part1HeaderActive {
+  background-color: #5db427 !important;
+  color: #fff !important;
+}
+#part1Footer {
+  width: 8.13333333rem;
+  height: 0.93333333rem;
+  border: 0.01333333rem solid #bbbbbb;
+  border-radius: 0.06666667rem;
+  background-color: #c7c7c7;
+  position: relative;
+}
+#part1Con {
+  width: 6.98666667rem;
+  height: auto;
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+  margin: 0 auto;
+  padding: 0 0.37333333rem;
+}
+.part1IconCss {
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+  position: absolute;
+  top: 0.25333333rem;
+  left: 3.85333333rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.openPart1 {
+  height: auto !important;
+}
+.signUpMod {
+  width: 100%;
+  margin-top: 0.16rem;
+  border-bottom: 1px solid #bbbbbb;
+}
+.signUpMod span {
+  display: block;
+  word-wrap: break-word;
+}
+.signUpMod span:nth-child(1) {
+  margin-bottom: 0.10666667rem;
+}
+.signUpMod span:nth-child(2) {
+  padding-top: 0.06666667rem;
+  line-height: 0.56rem;
+  border-top: 1px solid #bbbbbb;
+  margin-bottom: 16px;
+}
+.signUpBtn {
+  display: block;
+  width: 4.6rem;
+  height: 1.33333333rem;
+  font-size: 0.66666667rem;
+  line-height: 1.33333333rem;
+  text-align: center;
+  background-color: #5db427 !important;
+  color: #fff;
+  margin: 0 auto 0.33333333rem;
+}
+.price {
+  display: inline !important;
+}
+.signUpMod .warning {
+  margin-bottom: 0.46666667rem;
+  margin-left: 1.33333333rem;
+  line-height: 0.34666667rem;
+}
+#part2 {
+  width: 9.36rem;
+  height: auto;
+  margin: 1.13333333rem auto 0;
+}
+.projectIntroduction {
+  width: 8.37333333rem;
+  margin: 0 auto 0.53333333rem;
+  font-size: 0.32rem;
+  line-height: 0.4rem;
+}
+.projectIntroductionHead {
+  height: 0.45333333rem;
+  font-size: 0.45333333rem;
+  line-height: 0.45333333rem;
+  margin-bottom: 0.24rem;
+}
+.projectIntroductionCon {
+  margin-bottom: 0.4rem;
+}
+.projectIntroductionCon > a {
+  display: block;
+  text-decoration: underline !important;
+  margin: 0.13333333rem;
+  color: #0000ff !important;
+}
+.teacher {
+  width: 9.06666667rem;
+  height: 3.46666667rem;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  padding: 0.13333333rem 0.13333333rem;
+  margin-bottom: 0.24rem;
+}
+.teacher img {
+  display: block;
+  width: 1.82666667rem;
+  height: 2.69333333rem;
+  float: left;
+  margin-right: 0.33333333rem;
+  margin-top: 0.06666667rem;
+}
+.teacherDetails {
+  width: 6.8rem;
+  height: 3.49333333rem;
+  float: left;
+  padding-top: 0.06666667rem;
+}
+.teacherDetails h1 {
+  height: 0.4rem;
+  font-size: 0.4rem;
+  line-height: 30px;
+  border-bottom: 0.01333333rem solid #7f7f7f;
+  margin-bottom: 0.06666667rem;
+}
+.teacherDetails span {
+  font-size: 0.21333333rem;
+  line-height: 0.21333333rem;
+}
+.learningObjectives {
+  width: 8rem;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  padding: 0.26666667rem 0.66666667rem;
+  margin-bottom: 0.24rem;
+}
+.learningObjectives h1 {
+  font-size: 0.45333333rem;
+  line-height: 0.45333333rem;
+  margin-bottom: 0.46666667rem;
+}
+.learningObjectivesConHalf {
+  width: 4rem;
+  float: left;
+}
+.anObjective {
+  margin-bottom: 0.26666667rem;
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+}
+.courseCon {
+  width: 8rem;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  padding: 0.26666667rem 0.66666667rem;
+  margin-bottom: 0.24rem;
+}
+.courseConHead {
+  height: 0.56rem;
+  position: relative;
+  margin-bottom: 0.66666667rem;
+}
+.courseConHead h1 {
+  font-size: 0.45333333rem;
+  line-height: 0.45333333rem;
+  color: #29303b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.courseConHead .duration {
+  font-size: 0.32rem;
+  line-height: 0.32rem;
+  color: #29303b;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.courseConBody {
+  width: 8rem;
+}
+.ulA {
+  width: 8rem;
+}
+.liA {
+  width: 7.97333333rem;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 0.26666667rem;
+  color: #505763;
+}
+.liACon {
+  width: 7.97333333rem;
+  height: 0.90666667rem;
+  position: relative;
+}
+.liACon2 {
+  width: 7.97333333rem;
+  height: 1.33333333rem;
+  position: relative;
+}
+.liAIcon {
+  width: 0.17333333rem;
+  height: 0.17333333rem;
+  position: absolute;
+  top: 0.36rem;
+  left: -0.29333333rem;
+  background-size: 100% 100%;
+}
+.liATittle {
+  line-height: 0.8rem;
+  font-weight: 900;
+}
+.liATittle2 {
+  line-height: 0.4rem;
+  font-weight: 900;
+}
+.liADur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 0.8rem;
+}
+.ulB {
+  height: 0;
+  width: 7.97333333rem;
+  overflow: hidden;
+}
+.liB {
+  width: 7.84rem;
+  height: auto;
+  padding: 0 0 0.13333333rem 0.13333333rem;
+  border-top: 0.01333333rem solid #e8e9eb;
+  background-color: #ebebeb;
+  position: relative;
+}
+.liBTittle {
+  display: inline-block;
+  height: 100%;
+  max-width: 6.66666667rem;
+  margin-top: 0.17333333rem;
+  color: #505763;
+  line-height: 0.4rem;
+}
+.liBDur {
+  color: #505763;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 0.8rem;
+}
+.hidden {
+  height: 0 !important;
+}
+.requirement {
+  width: 8rem;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  padding: 0.26666667rem 0.66666667rem;
+  margin-bottom: 0.66666667rem;
+}
+.requirement h1 {
+  font-size: 0.45333333rem;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+  margin-bottom: 0.18666667rem;
+}
+.requirement div {
+  margin-left: 0.50666667rem;
+  font-size: 0.32rem;
+  line-height: 0.42666667rem;
+  margin-bottom: 0.33333333rem;
+}
+.footer {
+  width: 100%;
+  margin-top: 0.66666667rem;
+}
+.projectIntroductionImg {
+  width: 7.38666667rem;
+  height: 0.76rem;
+  margin: 0.4rem auto;
+  background-size: 100% 100%;
+}
+.projectIntroductionImg1 {
+  height: 2.93333333rem !important;
+}
+.projectIntroductionImg2 {
+  height: 3.97333333rem !important;
+}
+.projectIntroductionImg3 {
+  height: 2.4rem !important;
+}
+.projectIntroductionImg4 {
+  height: 2.2rem !important;
+}
+.projectIntroductionImg5 {
+  height: 4.98666667rem !important;
+}
+.projectIntroductionImg6 {
+  width: 8.66666667rem !important;
+  height: 7.14666667rem !important;
+}
+.class3Qrcode1 {
+  width: 3.24rem;
+  height: 4.44rem;
+}
+.class3Qrcode2 {
+  width: 3.05333333rem;
+  height: 3.05333333rem;
+}

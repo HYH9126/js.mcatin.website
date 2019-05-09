@@ -1,0 +1,356 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box{
+    min-width: 1304px;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mainBody .logo{
+    height: 494px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.mainBody .mainBodyCon{
+    position: relative;
+    background-color: #1a1b1d;
+}
+
+.mainBody .mainBodyCon .conNav{
+    width: 1304px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.conNavBody{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conNavBody>div .head{
+    width: 100%;
+    height: 66px;
+    position: absolute;
+    top: -50px;
+    transition-duration: 0.2s;
+}
+
+.conNavBody>div .head div{
+    height: 28px;
+    margin: 13px auto 0;
+}
+
+.conNavBody>div .head:hover{
+    top: -53px;
+}
+
+.ZC {
+    width: 193px;
+    height: 300px;
+    position: relative;
+}
+
+.LX {
+    width: 119px;
+    height: 300px;
+    position: relative;
+}
+
+.PX {
+    width: 243px;
+    height: 300px;
+    position: relative;
+}
+
+.GW {
+    margin: 0 auto;
+    width: 1092px;
+    height: 170px;
+    position: relative;
+}
+
+.GWhead{
+    width: 148px;
+    margin: 0 auto 20px auto;
+}
+
+.head4 {
+    width: 148px;
+    height: 25px !important;
+    background-repeat: no-repeat;
+}
+
+.GWcon {
+    width: 1092px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.GWcon>div {
+    width: 168px;
+    height: 100px;
+    margin-right: 14px;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.GWcon div a {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    width: 168px;
+    height: 100px;
+}
+
+.GWconBg {
+    width: 168px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.shadow {
+    width: 168px;
+    height: 100px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.head1 {
+    width: 118px;
+    background-repeat: no-repeat; 
+}
+
+.head2 {
+    width: 156px;
+    background-repeat: no-repeat;
+}
+
+.head3 {
+    width: 105px;
+    background-repeat: no-repeat;
+}
+
+.videoBtn{
+    width: 57px;
+    height: 57px;
+    position: absolute;
+    top: 22px;
+    left: 56px;
+    z-index: 100;
+}
+
+.ZCcon {
+    width: 193px;
+    height: 121px;
+    position: absolute;
+    top: 30px;
+}
+
+.ZCcon a {
+    display: block;
+    cursor: pointer;
+    width: 193px;
+    height: 121px;
+}
+
+.LXcon{
+    width: 119px;
+    height: 167px;
+    position: absolute;
+    top: 30px;
+}
+
+.LXcon a{
+    display: block;
+    cursor: pointer;
+    width: 119px;
+    height: 167px;
+}
+
+.PXcon{
+    width: 243px;
+    height: 206px;
+    position: absolute;
+    top: 30px;
+}
+
+.PXcon a{
+    display: block;
+    cursor: pointer;
+    width: 243px;
+    height: 206px;
+}
+
+.conNavFooter{
+    height: 66px;
+    width: 100%;
+    padding-top: 12px
+}
+
+.conNavFooter div:nth-child(1){
+    width: 146px;
+    height: 8px;
+    margin: 0 auto;
+    background-position-y: -994px;
+}
+
+.conNavFooter div:nth-child(3) {
+    width: 16px;
+    height: 10px;
+    margin: 0 auto;
+    background-position-x: -252px;
+}
+
+.conNavFooter span{
+    display: block;
+    height: 32px;
+    width: 66px;
+    margin: 0 auto;
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.aboutUs{
+    visibility: hidden;
+    width: 1089px;
+    height: 862px;
+    position: absolute;
+    top: 50px;
+    background: #f5f5f5;
+    padding-top: 67px;
+    padding-left: 102px;
+    z-index: 1000;
+}
+
+#aboutUsBg{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    background-position-y: -22px;
+    bottom: 0;
+    right: 0;
+}
+
+.aboutUs .companyName {
+    position: relative;
+    width: 786px;
+    height: 35px;
+    border-bottom: 2px solid #3e4244;
+    margin-left: 101px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.aboutUs .companyName div{
+    width: 39px;
+    height: 22px;
+    position: absolute;
+    top: 6px;
+    left: 152px;
+}
+
+.aboutUs .aboutUsCon{
+    height: 660px;
+    margin-top: 24px;
+}
+
+.aboutUs .aboutUsCon .introduce {
+    width: 606px;
+    height: 100%;
+    float: left;
+}
+
+.aboutUsCon .title {
+    width: 181px;
+    height: 30px;
+    margin-left: 48px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.introduce .introduceCon{
+    height: 596px;
+    width: 100%;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.aboutUs .aboutUsCon .contactWay {
+    float: left;
+    width: 404px;
+    height: 100%;
+}
+
+.contactWayCon{
+    width: 405px;
+    height: 596px;
+    margin-top: 32px;
+}
+
+.contactWayCon1{
+    margin-left: 37px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+
+.contactWayCon2 dl{
+    width: 194px;
+    margin-right: 16px;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.contactWayCon2 dl:first-child dt{
+    width: 194px;
+    height: 194px;
+    background-position-y: -127px;
+    margin-bottom: 13px;
+}
+
+.contactWayCon2 dl:last-child{
+    margin: 0;
+}
+
+.contactWayCon2 dl:last-child dt{
+    width: 194px;
+    height: 194px;
+    background-position-y: -321px;
+    margin-bottom: 13px;
+}
+
+.showAboutUs{
+    cursor: pointer;
+}
+
+#hiddenAboutUs {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position-x: -222px;
+    cursor: pointer;
+}

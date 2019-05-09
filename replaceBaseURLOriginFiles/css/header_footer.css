@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav {
+    width: 100%;
+    background-color: #fff;
+    height: 33px;
+    position: relative;
+    border-bottom: 1px solid #f5f6f6;
+}
+
+nav .navBody {
+    width: 600px;
+    height: 16px;
+    padding: 9px 0;
+    margin: 0 auto;
+}
+
+nav .navBody a {
+    margin: 0 21px;
+}
+
+nav .langSwitch {
+    position: absolute;
+    right: 5px;
+    top: 9px;
+}
+
+nav .langSwitch span {
+    font-size: 10px;
+}
+
+nav .langSwitch .gray {
+    color: #d8d8d8;
+}
+
+.navOpacity {
+    opacity: 0.5;
+    cursor: default !important;
+}
+
+footer {
+    width: 100%;
+    height: 37px;
+    background-color: #282828;
+}
+
+footer .footerBody {
+    margin: 0 auto;
+    width: 130px;
+    font-size: 11px;
+    font-family: "方正兰亭超细黑";
+    color: #fff;
+    text-align: center;
+}
+
+.copyright{
+    font-size: 8px !important;
+    color: #78828c !important;
+}

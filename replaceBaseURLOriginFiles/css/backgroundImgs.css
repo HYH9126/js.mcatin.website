@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+.detailsIcon {
+    background-image: url(http://@baseurl/mcatin/imgs/details/icon.png);
+}
+
+.videoBg {
+    background-image: url(http://@baseurl/mcatin/imgs/details/video.png);
+}
+
+.videoBg2 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/video2.png);
+}
+
+.videoBg3 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/video3.png);
+}
+
+.videoBg4 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/video4.png);
+}
+
+.signUpBtnBg {
+    background-image: url(http://@baseurl/mcatin/imgs/details/signUpBtn.png);
+}
+
+.homeIcon {
+    background-image: url(http://@baseurl/mcatin/imgs/home/homeIcon.png);
+}
+
+.aboutUsBg {
+    background-image: url(http://@baseurl/mcatin/imgs/home/aboutUs.png);
+}
+
+.head1 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/head1.png);
+}
+
+.head2 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/head2.png);
+}
+
+.head3 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/head3.png);
+}
+
+.head4 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/head4.png);
+}
+
+.videoBtnImg{
+    background-image: url(http://@baseurl/mcatin/imgs/home/videoBtn.png);
+}
+
+.GWconBg1 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg1.png);
+}
+
+.GWconBg2 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg2.png);
+}
+
+.GWconBg3 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg3.png);
+}
+
+.GWconBg4 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg4.png);
+}
+
+.GWconBg5 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg5.png);
+}
+
+.GWconBg6 {
+    background-image: url(http://@baseurl/mcatin/imgs/home/GWconBg6.png);
+}
+
+.ZCimg {
+    background-image: url(http://@baseurl/mcatin/imgs/home/ZCimg.png)
+}
+
+.LXimg{
+    background-image: url(http://@baseurl/mcatin/imgs/home/LXimg.png)
+}
+
+.PXimg{
+    background-image: url(http://@baseurl/mcatin/imgs/home/PXimg.png)
+}
+
+.homeLogo {
+    background-image: url(http://@baseurl/mcatin/imgs/home/home_01.png);
+}
+
+.mobileBackHome {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_back_home.png);
+}
+
+.mobileVideoBgImg1 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_video.png);
+}
+
+.mobileVideoBgImg2 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_video2.png);
+}
+
+.mobileVideoBgImg3 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_video3.png);
+}
+
+.mobileVideoBgImg3 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_video4.png);
+}
+
+.mobileVideoPlay {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_video_play.png);
+}
+
+.mobilePart1Icon1 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_part1_icon1.png);
+}
+
+.mobileCourseOpen {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_course_open.png);
+}
+
+.mobileCourseClose {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_course_close.png);
+}
+
+.detailsClass11{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class1_1.png);
+}
+
+.detailsClass21 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class2_1.png);
+}
+
+.mobileDetailsClass21 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_details_class2_1.png);
+}
+
+.detailsClass22 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class2_2.png);
+}
+
+.detailsClass31{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_1.png);
+}
+
+.detailsClass32 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_2.png);
+}
+
+.detailsClass33{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_3.png);
+}
+
+.detailsClass34 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_4.png);
+}
+
+.detailsClass35 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_5.png);
+}
+
+.detailsClass36 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_class3_6.png);
+}
+
+.detailsClass3Qrcode1{
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_details_qrcode1.png);
+}
+
+.detailsClass3Qrcode2 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/mobile_details_qrcode2.png);
+}
+
+.detailsTalin1{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_talin_1.png);
+}
+
+.detailsTalin2 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_talin_2.png);
+}
+
+.detailsTalin3 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_talin_3.png);
+}
+
+.detailsTalin4 {
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_talin_4.png);
+}
+
+.detailsTory1{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_tory_1.png);
+}
+
+.detailsTory2{
+    background-image: url(http://@baseurl/mcatin/imgs/details/details_tory_2.png);
+}
