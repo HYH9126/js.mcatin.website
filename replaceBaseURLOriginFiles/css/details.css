@@ -226,14 +226,12 @@
 
 .liACon{
     width: 706px;
-    height: 40px;
     position: relative;
-    padding-left: 42px;
-    padding-top: 5px;
+    padding: 6px 0 6px 42px;
 }
 
 .liAIcon1{
-    width: 10px;
+    width: 20px;
     height: 9px;
     position: absolute;
     top: 18px;
@@ -244,7 +242,7 @@
     width: 8px;
     height: 2px;
     position: absolute;
-    top: 22px;
+    top: 24px;
     left: 22px;
     background-position-y: -9px;
 }

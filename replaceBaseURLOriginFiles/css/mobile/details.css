@@ -288,6 +288,9 @@
   width: 4rem;
   float: left;
 }
+.learningObjectivesWidthBeyond {
+  width: 8rem;
+}
 .anObjective {
   margin-bottom: 0.26666667rem;
   font-size: 0.32rem;
@@ -335,28 +338,27 @@
 }
 .liACon {
   width: 7.97333333rem;
-  height: 0.90666667rem;
   position: relative;
-}
-.liACon2 {
-  width: 7.97333333rem;
-  height: 1.33333333rem;
-  position: relative;
+  padding: 0.13333333rem 0;
 }
 .liAIcon {
   width: 0.17333333rem;
   height: 0.17333333rem;
   position: absolute;
-  top: 0.36rem;
+  top: 0.45rem;
   left: -0.29333333rem;
   background-size: 100% 100%;
 }
 .liATittle {
+  display: inline-block;
+  width: 6.4rem;
   line-height: 0.8rem;
   font-weight: 900;
 }
 .liATittle2 {
   line-height: 0.4rem;
+  display: inline-block;
+  width: 6.4rem;
   font-weight: 900;
 }
 .liADur {
@@ -374,7 +376,7 @@
   width: 7.84rem;
   height: auto;
   padding: 0 0 0.13333333rem 0.13333333rem;
-  border-top: 0.01333333rem solid #e8e9eb;
+  border-top: 0.01333333rem solid #cfcfcf;
   background-color: #ebebeb;
   position: relative;
 }
@@ -385,8 +387,10 @@
   margin-top: 0.17333333rem;
   color: #505763;
   line-height: 0.4rem;
+  width: 5.8rem;
 }
 .liBDur {
+  font-size: 0.2rem;
   color: #505763;
   position: absolute;
   top: 0;
