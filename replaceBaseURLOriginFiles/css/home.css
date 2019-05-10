@@ -207,14 +207,14 @@
     width: 146px;
     height: 8px;
     margin: 0 auto;
-    background-position-y: -994px;
 }
 
 .conNavFooter div:nth-child(3) {
     width: 16px;
     height: 10px;
     margin: 0 auto;
-    background-position-x: -252px;
+    background-position-x: -52px;
+    background-position-y: -8px;
 }
 
 .conNavFooter span{
@@ -351,6 +351,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background-position-x: -222px;
+    background-position-x: -22px;
+    background-position-y: -8px;
     cursor: pointer;
 }

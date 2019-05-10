@@ -32,7 +32,7 @@
     position: absolute;
     top: 170px;
     left: 200px;
-    background-position-x: -200px;
+    background-position-y: -8px;
 }
 
 .tips .close {
@@ -41,7 +41,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    background-position-x: -222px;
+    background-position-x: -22px;
+    background-position-y: -8px;
     cursor: pointer;
 }
 
