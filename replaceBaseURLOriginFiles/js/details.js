@@ -85,7 +85,7 @@ $(document).ready(function () {
                 $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51783914&cid=90651695&page=1');
                 break;
             case "19_SELF":
-                $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51783914&cid=90651695&page=1');
+                $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=46786440&cid=81947864&page=1');
                 break;
             default:
                 console.log('没有视频地址')
