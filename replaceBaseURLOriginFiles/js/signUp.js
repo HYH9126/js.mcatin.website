@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 	function addeventlistener() {
 		$('#backIndex').on('click', function () {
-			window.location.replace("http://www.mcatin.art/pages/home.html");
+			window.location.replace("http://@baseurl/pages/home.html");
 		});
 		$(".clo").on('click', function () {
 			var userAgent = navigator.userAgent;

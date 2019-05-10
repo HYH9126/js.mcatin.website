@@ -5,7 +5,7 @@
  * @returns
  */
 (function (window, $) {
-	let baseURL = 'http://@baseurl/';
+	let baseURL = 'http://www.mcatin.net/';
 	let API = function(baseURL) {
 		this.baseURL = baseURL;
 		

@@ -102,7 +102,7 @@ $(document).ready(function () {
     //移动端事件监听
     function addeventlistener(classId) {
         $('#backIndex').on('click', function () {
-            window.location.replace("http://www.mcatin.art/pages/home.html");
+            window.location.replace("http://@baseurl/pages/home.html");
         });
         $('#showVideo').on('click', function () {
             if (classId === "19_S_TALINN") {

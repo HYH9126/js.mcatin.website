@@ -26,7 +26,7 @@
 }
 
 .conNavBody{
-    height: 300px;
+    height: 270px;
     display: flex;
     justify-content: space-around;
 }
@@ -50,19 +50,19 @@
 
 .ZC {
     width: 193px;
-    height: 300px;
+    height: 270px;
     position: relative;
 }
 
 .LX {
     width: 119px;
-    height: 300px;
+    height: 270px;
     position: relative;
 }
 
 .PX {
     width: 243px;
-    height: 300px;
+    height: 270px;
     position: relative;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .head3 {
-    width: 105px;
+    width: 98px;
     background-repeat: no-repeat;
 }
 
@@ -193,8 +193,8 @@
 .PXcon a{
     display: block;
     cursor: pointer;
-    width: 243px;
-    height: 206px;
+    width: 230px;
+    height: 104px;
 }
 
 .conNavFooter{

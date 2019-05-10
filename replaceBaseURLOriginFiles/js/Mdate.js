@@ -7,7 +7,7 @@
         link.href = url;
         d.getElementsByTagName("head")[0].appendChild(link)
     };
-    includeCss("http://www.mcatin.art/css/mobile/mDate.css");
+    includeCss("http://@baseurl/css/mobile/mDate.css");
     var dateopts = {
         beginYear: 2000,
         beginMonth: 1,
