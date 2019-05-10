@@ -55,7 +55,8 @@ footer .footerBody {
 }
 
 .copyright{
+    display: block;
     font-size: 12px;
-    transform:scale(.75);
+    transform:scale(0.75);
     color: #78828c !important;
 }
