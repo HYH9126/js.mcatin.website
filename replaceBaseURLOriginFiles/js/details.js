@@ -78,7 +78,7 @@ $(document).ready(function () {
             case "19_S_TALINN":
                 $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=48795641&cid=85445787&page=1');
                 break;
-            case "19_S_NPU":
+            case "19_S_SC":
                 $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51785978&cid=90656997&page=1');
                 break;
             case "19_S_NGC":
@@ -105,10 +105,21 @@ $(document).ready(function () {
             window.location.replace("http://@baseurl/pages/home.html");
         });
         $('#showVideo').on('click', function () {
-            if (classId === "19_S_TALINN") {
-                window.location.replace("https://www.bilibili.com/video/av48795641");
-            } else {
-                window.location.replace("https://www.bilibili.com/video/av45046320?zw");
+            switch (classId) {
+                case "19_S_TALINN":
+                    window.location.replace("https://www.bilibili.com/video/av48795641");
+                    break;
+                case "19_S_SC":
+                    window.location.replace("https://www.bilibili.com/video/av51785978");
+                    break;
+                case "19_S_NGC":
+                    window.location.replace("https://www.bilibili.com/video/av51783914");
+                    break;
+                case "19_SELF":
+                    window.location.replace("https://www.bilibili.com/video/av46786440");
+                    break;
+                default:
+                    console.log('没有视频地址')
             }
         });
         $('#part1Footer').on('click', function () {

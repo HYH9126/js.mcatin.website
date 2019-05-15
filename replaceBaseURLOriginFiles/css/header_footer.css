@@ -14,29 +14,8 @@ nav .navBody {
     height: 16px;
     padding: 9px 0;
     margin: 0 auto;
-}
-
-nav .navBody a {
-    margin: 0 21px;
-}
-
-nav .langSwitch {
-    position: absolute;
-    right: 5px;
-    top: 9px;
-}
-
-nav .langSwitch span {
-    font-size: 10px;
-}
-
-nav .langSwitch .gray {
-    color: #d8d8d8;
-}
-
-.navOpacity {
-    opacity: 0.5;
-    cursor: default !important;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {

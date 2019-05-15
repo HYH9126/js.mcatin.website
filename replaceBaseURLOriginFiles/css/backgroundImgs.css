@@ -21,6 +21,10 @@
     background-image: url(http://@baseurl/imgs/details/video4.png);
 }
 
+.videoBg5 {
+    background-image: url(http://@baseurl/imgs/details/video5.png);
+}
+
 .signUpBtnBg {
     background-image: url(http://@baseurl/imgs/details/signUpBtn.png);
 }
@@ -113,6 +117,10 @@
     background-image: url(http://@baseurl/imgs/details/mobile_video4.png);
 }
 
+.mobileVideoBgImg5 {
+    background-image: url(http://@baseurl/imgs/details/mobile_video5.png);
+}
+
 .mobileVideoPlay {
     background-image: url(http://@baseurl/imgs/details/mobile_video_play.png);
 }
@@ -139,10 +147,6 @@
 
 .detailsClass21 {
     background-image: url(http://@baseurl/imgs/details/details_class2_1.png);
-}
-
-.mobileDetailsClass21 {
-    background-image: url(http://@baseurl/imgs/details/mobile_details_class2_1.png);
 }
 
 .detailsClass22 {
