@@ -82,7 +82,7 @@ $(document).ready(function () {
                 $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51785978&cid=90656997&page=1');
                 break;
             case "19_S_NGC":
-                $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51783914&cid=90651695&page=1');
+                $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=51783914&cid=92263371&page=1');
                 break;
             case "19_SELF":
                 $('#iframeVideo').attr('src', '//player.bilibili.com/player.html?aid=46786440&cid=81947864&page=1');
@@ -147,7 +147,7 @@ $(document).ready(function () {
             if (classId === "19_ISART_EXAM") {
                 $('#state').text('报名中')
             } else {
-                $('#state').text('众筹中')
+                $('#state').text('报名中')
             }
             $('#daysRemaining').text(data.daysRemaining);
         } else {

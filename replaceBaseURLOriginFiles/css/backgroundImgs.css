@@ -149,6 +149,10 @@
     background-image: url(http://@baseurl/imgs/details/details_class2_1.png);
 }
 
+.mobileDetailsClass21 {
+    background-image: url(http://@baseurl/imgs/details/mobile_details_class2_1.png);
+}
+
 .detailsClass22 {
     background-image: url(http://@baseurl/imgs/details/details_class2_2.png);
 }
