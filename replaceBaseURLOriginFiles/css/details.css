@@ -358,7 +358,7 @@
     width: 741px;
     border: 1px solid #eaeaea;
     background-color: #fff;
-    margin-bottom: 89px;
+    margin-bottom: 50px;
     padding: 25px 0 25px 24px;
 }
 
@@ -603,6 +603,13 @@
 .projectIntroductionImg6 {
     width: 650px !important;
     height: 176px !important;
+}
+
+.projectIntroductionImg7 {
+    width: 250px !important;
+    height: 250px !important;
+    background-size: contain;
+    margin: 0 !important;
 }
 
 .class3Qrcode1 {

@@ -94,7 +94,7 @@
 }
 
 .homeLogo {
-    background-image: url(http://@baseurl/imgs/home/home_01.webp);
+    background-image: url(http://@baseurl/imgs/home/home_01.jpg);
 }
 
 .mobileBackHome {
@@ -211,4 +211,8 @@
 
 .detailsTory2{
     background-image: url(http://@baseurl/imgs/details/details_tory_2.png);
+}
+
+.QRcodeTeacherLiu{
+    background-image: url(http://@baseurl/imgs/details/QRcode_teacherLiu.jpg);
 }
