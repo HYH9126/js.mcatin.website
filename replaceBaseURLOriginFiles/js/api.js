@@ -5,7 +5,7 @@
  * @returns
  */
 (function (window, $) {
-	let baseURL = 'http://www.mcatin.net/';
+	let baseURL = 'http://@baseurl';
 	let API = function(baseURL) {
 		this.baseURL = baseURL;
 		
@@ -13,7 +13,7 @@
 		 * 根据课程id获取产品信息列表
 		 */
 		this.classInfo = function(classId, callback) {
-			$.get(`${this.baseURL}class/classInfo?classId=${classId}`, function(data) {
+			$.get(`${this.baseURL}/class/classInfo?classId=${classId}`, function(data) {
 				if (data.errno === 0) {
 					let endTime = data.data.info.endTime;
 					let callbackRsp = {
